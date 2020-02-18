@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58cc8fcb-b0ab-486f-aec5-a78d60d73555">
+  <producedTypes>
+    <objectType typeId="7636b9a2-7f14-4e92-b63a-14e1e501ccdc" valueTypeId="71d31b7d-00c7-4b76-9d87-fd9b76844eb4"/>
+    <refType typeId="92fe093f-49ca-4ca2-a463-1add94354604" valueTypeId="0e68b0a2-bbe8-4367-bf0e-f77ac4ae908a"/>
+    <selectionType typeId="5d0a44d5-d89b-4a8e-9125-59e53d44a629" valueTypeId="262ad0ef-e40e-4db8-ab10-08f54b0bcbd3"/>
+    <listType typeId="39af70a6-22f0-4cd7-af77-f1bf2295264a" valueTypeId="18b765df-c49e-48b2-9332-a87376b73c4a"/>
+    <managerType typeId="f3acf4d7-8b29-4dbc-acf4-b80814d349e1" valueTypeId="56f7b56c-1282-4aec-8a95-3c1058e296c0"/>
+    <containerType typeId="528bfef3-5f3c-43df-9c20-1b220987ffb9" valueTypeId="d8858312-4b4c-472e-95e3-5e870ce74565"/>
+  </producedTypes>
+  <name>СвойстваНастроекИмопрта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства настроек имопрта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНастроекИмопрта.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНастроекИмопрта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e2191453-ec35-4088-a113-227d53255f6b">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя (для разработчика)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

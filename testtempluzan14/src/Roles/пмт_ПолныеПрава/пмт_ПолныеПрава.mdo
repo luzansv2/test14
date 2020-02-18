@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25a36947-ae83-40d4-b12f-2f44823efa5a">
+  <name>пмт_ПолныеПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пмт полные права</value>
+  </synonym>
+</mdclass:Role>

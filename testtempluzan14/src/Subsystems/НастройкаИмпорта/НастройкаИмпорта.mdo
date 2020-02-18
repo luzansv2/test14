@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62537cf1-c7e8-4ab5-a04d-02aab7b4a218">
+  <name>НастройкаИмпорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка импорта</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.НастройкаИмпорта</content>
+  <content>ChartOfCharacteristicTypes.СвойстваНастроекИмопрта</content>
+  <content>InformationRegister.ЗначенияСвойствИмпорта</content>
+  <content>Catalog.ВариантыИмпорта</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Catalog.НаборыВариантовСвойствИмпорта</content>
+  <content>CommonCommand.ВключитьВыключитьИсторию</content>
+</mdclass:Subsystem>

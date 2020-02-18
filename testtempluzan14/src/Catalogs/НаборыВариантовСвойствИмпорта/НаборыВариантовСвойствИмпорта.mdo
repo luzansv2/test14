@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df3d7596-b737-4b42-9c0a-348c364493b8">
+  <producedTypes>
+    <objectType typeId="c3669e22-b7c0-46a2-9646-46a809969b33" valueTypeId="4aef089b-3262-45b9-9280-df3843e29aea"/>
+    <refType typeId="b210fd6b-4b99-4526-8a16-6a4400efccfb" valueTypeId="dade99fd-264e-46ac-b4b1-89f974f57742"/>
+    <selectionType typeId="2d461fa6-cc48-4b3d-8e66-079952867e08" valueTypeId="4eb674a9-b037-46a1-90c1-6ec7ce092deb"/>
+    <listType typeId="41a86322-adfe-4f2c-ad05-eeaf41dcc81d" valueTypeId="21105d82-5422-4b7b-8fb9-0a994b301e01"/>
+    <managerType typeId="a6fc08df-8100-4ef2-a247-91ba58197378" valueTypeId="10e0003d-e993-4fff-9dbf-930b9e7faf5b"/>
+  </producedTypes>
+  <name>НаборыВариантовСвойствИмпорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы вариантов свойств импорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыВариантовСвойствИмпорта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаборыВариантовСвойствИмпорта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

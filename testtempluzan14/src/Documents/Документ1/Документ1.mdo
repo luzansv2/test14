@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3f9197b-6327-40a1-a56f-dd3249231209">
+  <producedTypes>
+    <objectType typeId="2d4de8db-92d0-4cf2-bcb2-07ec8b277e4f" valueTypeId="9041a1e0-b2c7-4076-b030-c00a4b3bbb1a"/>
+    <refType typeId="158d5278-c096-420b-a507-109133da154d" valueTypeId="187c0e57-d35d-4912-b0a6-4258472ae767"/>
+    <selectionType typeId="e5f2455e-d0a4-4e75-937c-b6483992a105" valueTypeId="48671c75-ebb2-40ce-a4b6-e5f40100dc67"/>
+    <listType typeId="0a645845-52d5-46cd-b9c5-6fd2f317a5a5" valueTypeId="d071d2eb-ccd4-4a4f-8c2c-b9cb186ca925"/>
+    <managerType typeId="9272b561-17bf-44cd-bc86-6f226ea87e05" valueTypeId="ed289a49-7172-4412-9b34-9cf5477107ab"/>
+  </producedTypes>
+  <name>Документ1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Документ1.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Документ1.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.РегистрНакопления1</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="097bf377-6ef4-4b13-b290-00ca5f8583a4">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5cd821b-b9e2-42fd-8160-1c8bce9febc1">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9bf44f63-aa1e-4a2c-bfbc-9e4a3fb667c3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

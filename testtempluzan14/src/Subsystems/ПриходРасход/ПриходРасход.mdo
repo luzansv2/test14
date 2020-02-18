@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93027c0f-8b54-47a4-9d0f-77c95ee4b96a">
+  <name>ПриходРасход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход расход</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Приход</content>
+  <content>Document.Расход</content>
+  <content>AccumulationRegister.ТоварыНаСкладах</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Организация</content>
+  <content>Catalog.Склад</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Document.Документ1</content>
+  <content>Constant.ПрефиксУзла</content>
+  <content>AccumulationRegister.РегистрНакопления1</content>
+  <content>DataProcessor.Обработка1</content>
+</mdclass:Subsystem>

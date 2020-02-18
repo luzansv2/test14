@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0686629-3ea7-4aaa-a301-c50a9ec9589e">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0b5ca90e-ea89-4c67-8385-ee1a2cbfd0a1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="be20565d-7dd4-475a-ba0c-a4abcd4b7a38"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="977323a5-896f-4c6b-9b68-7325fc5bbea3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="765ad27c-879b-4e71-a242-496b15af412a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="fbd261b6-5110-4ceb-9fee-35344235a9cb"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4b417eeb-aac9-4884-a472-d467e3bc33af"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="4fa41717-53b4-4634-872d-b3375075e0ee">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ПриходРасход</subsystems>
+  <subsystems>Subsystem.НастройкаИмпорта</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.пмт_ПолныеПрава</roles>
+  <commonModules>CommonModule.ФоновыеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.ом_ЭтоСервер</commonModules>
+  <commonCommands>CommonCommand.ВключитьВыключитьИсторию</commonCommands>
+  <constants>Constant.ПрефиксУзла</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организация</catalogs>
+  <catalogs>Catalog.Склад</catalogs>
+  <catalogs>Catalog.НастройкаИмпорта</catalogs>
+  <catalogs>Catalog.ВариантыИмпорта</catalogs>
+  <catalogs>Catalog.НаборыВариантовСвойствИмпорта</catalogs>
+  <documents>Document.Приход</documents>
+  <documents>Document.Расход</documents>
+  <documents>Document.Документ1</documents>
+  <dataProcessors>DataProcessor.Обработка1</dataProcessors>
+  <informationRegisters>InformationRegister.ЗначенияСвойствИмпорта</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РегистрНакопления1</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНастроекИмопрта</chartsOfCharacteristicTypes>
+  <externalDataSources>ExternalDataSource.ВнешнийИсточникДанных1</externalDataSources>
+</mdclass:Configuration>

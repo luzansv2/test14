@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77124d34-62c9-45d2-81e5-c286574f6251">
+  <producedTypes>
+    <selectionType typeId="7209e0d2-683d-4599-86bf-4d490ca2ae59" valueTypeId="e7b3823f-c33a-4f2a-a62c-ed2f3aceaba0"/>
+    <listType typeId="ba96e665-6182-4171-b604-108b027c6aac" valueTypeId="95ecebdc-a25a-4453-845f-6904b3cc657e"/>
+    <managerType typeId="310e8eae-d36d-4d3b-ab08-bc633337fa65" valueTypeId="ccd0dc8a-3165-47eb-9982-236e09aee481"/>
+    <recordSetType typeId="28e3c309-b73e-406e-8e15-d3c6407bc8cc" valueTypeId="6f9d7f0c-83bd-4c8e-946a-cbf3859b9011"/>
+    <recordKeyType typeId="b5341b6c-4912-49a8-9331-0d161a095824" valueTypeId="c131629a-a1e7-4799-9b97-1367ce91f54f"/>
+    <recordType typeId="4156146d-34e8-4986-94e3-29a5078d706e" valueTypeId="749bfdfb-68ee-44c0-bb6c-e20b375e4df1"/>
+    <recordManagerType typeId="0601a376-38b7-472b-b6bf-105d8707889b" valueTypeId="be800e01-3f19-4bde-a20d-c0a30975385a"/>
+  </producedTypes>
+  <name>ЗначенияСвойствИмпорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств импорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЗначенияСвойствИмпорта.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЗначенияСвойствИмпорта.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c9488303-8624-4313-aa03-0ed44eb4cadb">
+    <name>ЗначениеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение свойства</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СвойстваНастроекИмопрта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>СвойствоНастройки</name>
+      <field>InformationRegister.ЗначенияСвойствИмпорта.Dimension.СвойствоНастройки</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ЗначенияСвойствИмпорта.Dimension.СвойствоНастройки</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cc0a6007-90bd-4ae8-a4e5-5874d1b2e6f0">
+    <name>НаборВариантов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор вариантов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыВариантовСвойствИмпорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f53d5586-40b1-4a1f-b7da-4fdce28f1ee1">
+    <name>ВариантИмпорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант импорта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыИмпорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4b06d8d8-215f-4a53-bea8-44c4c0408b65">
+    <name>СвойствоНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство настройки</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваНастроекИмопрта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9266689e-35f6-4285-82dc-6859df2d1784">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9de040af-d622-4e58-9af4-2ef88328f99c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

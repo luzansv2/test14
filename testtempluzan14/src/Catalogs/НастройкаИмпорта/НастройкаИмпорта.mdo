@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="117e743e-b7da-4405-82e8-67614795482a">
+  <producedTypes>
+    <objectType typeId="84db4e34-dc4f-4579-b31c-83309fa393cc" valueTypeId="376ad896-bb5d-4401-b703-015d30032eae"/>
+    <refType typeId="995ab457-cc80-44f0-8ba8-01caa93c1b7f" valueTypeId="cd64bfeb-a6a4-4a5c-8b1e-3b24f9d11122"/>
+    <selectionType typeId="dbd63673-8987-4c19-b2c3-46d0f3b36f71" valueTypeId="bb2279a9-a250-4539-962c-577e89dc8864"/>
+    <listType typeId="a5eb2e93-dd36-4111-9f71-f1787466d2aa" valueTypeId="ce59ed5a-e614-4242-9a85-fb1e0402abde"/>
+    <managerType typeId="da0e825c-0689-4a02-b94f-f822a89831d4" valueTypeId="639d6356-bb1c-40de-bcaf-f70edc2e9f19"/>
+  </producedTypes>
+  <name>НастройкаИмпорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка импорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкаИмпорта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкаИмпорта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкаИмпорта.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.НастройкаИмпорта.Form.ФормаСписка</defaultListForm>
+  <tabularSections uuid="8030eff6-ba0b-42aa-94d4-3222fd65e2d4">
+    <producedTypes>
+      <objectType typeId="06c9bf12-13d2-467e-bf56-0a9c238cfee1" valueTypeId="9772fbf2-bf32-4fba-8073-fac4396cf46a"/>
+      <rowType typeId="973b5ff5-d06c-4bd9-8230-2256f3d22fb1" valueTypeId="58c000a2-576f-4a5a-8e82-dc625f68c79d"/>
+    </producedTypes>
+    <name>ВариантыИмпорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты импорта</value>
+    </synonym>
+    <attributes uuid="b33f29f6-dd2e-4361-ba1b-609a3f047d0f">
+      <name>НаборВариантов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор вариантов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НаборыВариантовСвойствИмпорта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="37ab5acb-6c23-4b8c-9a3e-0772b5c08d0f">
+      <name>Вариант</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВариантыИмпорта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="bc4d77bd-050d-45ad-b69f-4147014d8fd3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="713c6e19-dcf5-4f97-886c-3c8383c93264">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
